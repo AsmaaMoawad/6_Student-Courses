@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/nameview"
+            android:hint="YourName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/passview"
+            android:hint="Your Pass Will Appear Here" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/fnameviwe"
+            android:hint=" Enter Your Last Name"
+             />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/lnameview"
+            android:hint=" Enter Your First Name"
+            />
+
+        <Button
+            android:text="Update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/save" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
